@@ -1,0 +1,113 @@
+[
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In sharded clusters, delayed members have limited utility when the ____ is enabled.",
+      "correct_answer": "Balancer",
+      "incorrect_answers": [
+        "Collector",
+        "Emitter",
+        "Handler"
+      ]
+    },
+    {
+      "category": "Nosql-Subjective",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "What is Hadoop MapReduce?",
+      "correct_answer": "Done",
+      "incorrect_answers": [
+        "Skip"
+      ]
+    },
+    {
+     "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following is not a valid Hadoop config file?",
+      "correct_answer": "hadoop-site.xml",
+      "incorrect_answers": [
+        "mapred-site.xml",
+        "core-site.xml",
+        "Masters"
+      ]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following database command is used for mapreduce function?",
+      "correct_answer": "mapReduce",
+      "incorrect_answers": ["mapperRed", "redmap", "None"]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "MongoDB applies the _____ phase to each input document in mapreduce.",
+      "correct_answer": "map",
+      "incorrect_answers": [
+        "reduce",
+        "mapper",
+        "list"
+      ]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "MongoDB applies the _________ phase, which collects and condenses the aggregated data.",
+      "correct_answer": "reduce",
+      "incorrect_answers": ["map", "connect", "mapper"]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Map-reduce uses custom __________ functions to perform the map and reduce operations.",
+      "correct_answer": "Java",
+      "incorrect_answers": ["Javascript", "JSON", "JQuery"]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Delayed members apply operations from the _______ on a delay.",
+      "correct_answer": " oplog",
+      "incorrect_answers": ["log", "mlog", "logs"]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following databases employ fuzzy logic to draw inferences from imprecise data.",
+      "correct_answer": "probabilistic database",
+      "incorrect_answers": ["spatial database","Real-time database","temporal database"]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is Hive used as?",
+      "correct_answer": "All",
+      "incorrect_answers": [
+        "Hadoop query engine",
+        "MapReduce wrapper",
+        "Hadoop SQL interface"
+      ]
+    },
+    {
+      "category": "Nosql-Objective",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the default HDFS replication factor?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "1",
+        "4",
+        "2"
+      ]
+    }
+  ]
+  
