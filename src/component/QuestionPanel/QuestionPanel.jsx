@@ -182,6 +182,9 @@ export default function QuestionPanel({
         ) : (
           ""
         )}
+        {answered && progress === 100 ? (<Typography variant="h5" component="h3" className="message">
+          Quiz Finished. Thank You!
+        </Typography>) : null}
       </Card>
       <div className="score-wrapper">
         <p>Score: {score} %</p>
