@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import data from "../data/quiz-data.json";
 import QuestionPanel from "../QuestionPanel/QuestionPanel";
-import "./Home.css";
 
 class Home extends Component {
   state = {
